@@ -14,7 +14,6 @@ public class Driver {
 		tree.insertNode(140);
 		tree.insertNode(5);
 
-		
 		tree.findLongestPath();
 	}
 }

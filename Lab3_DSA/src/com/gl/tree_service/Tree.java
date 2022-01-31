@@ -63,7 +63,7 @@ public class Tree {
 
 	private LinkedList<Integer> longestPath(Node root) {
 		if (root == null) {
-			//System.out.println("Tree is empty");
+			// System.out.println("Tree is empty");
 			return new LinkedList<Integer>();
 		}
 
@@ -90,8 +90,7 @@ public class Tree {
 					System.out.print(longestPath.get(i));
 				}
 			}
-		}
-		else {
+		} else {
 			System.out.print("Tree is empty");
 		}
 	}
