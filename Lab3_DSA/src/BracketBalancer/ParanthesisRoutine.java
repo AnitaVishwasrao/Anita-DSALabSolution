@@ -31,7 +31,6 @@ public class ParanthesisRoutine {
 					System.out.println("The entered Strings do not contain Balanced Brackets");
 					return;
 				}
-
 			} else {
 				System.out.println("Invalid bracket character");
 			}
